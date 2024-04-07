@@ -1,0 +1,29 @@
+.submitButton {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 20px;
+    max-width: fit-content;
+}
+
+.submitButton:hover {
+    background-color: darkgreen;
+}
+
+.submitButton:focus {
+    outline: 4px solid orange;
+}
+
+.inputFields {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.form {
+    margin-left: 64px;
+    margin-top: 36px;
+}

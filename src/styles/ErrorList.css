@@ -1,0 +1,32 @@
+.errorItem {
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+.errorSummary {
+    border: 4px solid red;
+    padding: 0px 20px 8px 20px;
+    min-width: fit-content;
+    max-width: 600px;
+}
+
+.errorSummary:focus {
+    outline: 0;
+    box-shadow: 0 0 1px 4px orange;
+}
+
+.errorSummary ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.errorSummary li {
+    margin: 4px 0;
+    max-width: fit-content;
+}
+
+.errorSummary a:focus {
+    outline: 0;
+    box-shadow: 0 0 1px 4px orange;
+}
