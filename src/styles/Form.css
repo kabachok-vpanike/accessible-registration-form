@@ -24,6 +24,9 @@
 }
 
 .form {
-    margin-left: 64px;
-    margin-top: 36px;
+    padding: 18px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

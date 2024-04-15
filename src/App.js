@@ -4,7 +4,9 @@ import { useEffect } from 'react';
 
 function App() {
   return (
-    <Form />
+    <div className='globalForm'>
+      <Form />
+    </div>
   );
 }
 

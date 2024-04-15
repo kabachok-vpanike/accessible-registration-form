@@ -5,10 +5,14 @@
 }
 
 .errorSummary {
+    display: 'flex';
+    justify-content: center;
+    width: 500px;
+    overflow-x: hidden;
+    margin-top: 12px;
     border: 4px solid red;
     padding: 0px 20px 8px 20px;
     min-width: fit-content;
-    max-width: 600px;
 }
 
 .errorSummary:focus {
@@ -29,4 +33,12 @@
 .errorSummary a:focus {
     outline: 0;
     box-shadow: 0 0 1px 4px orange;
+}
+
+@media (max-width: 600px) {
+    .errorSummary {
+        margin: 0px 18px;
+        width: auto;
+        max-width: 100%;
+    }
 }

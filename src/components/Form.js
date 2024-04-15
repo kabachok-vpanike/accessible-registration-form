@@ -82,44 +82,45 @@ const Form = () => {
     return (
         <form className='form' noValidate onSubmit={handleSubmit} aria-labelledby="formTitle">
             <ErrorList errors={errors} ref={errorSummaryRef} />
+            <div className='inputFieldsWithTitle'>
+                <h1 id="formTitle">Register</h1>
+                <div className='inputFields'>
+                    <InputField
+                        id="username"
+                        ref={usernameRef}
+                        label="Username"
+                        type="text"
+                        name="username"
+                        value={formData.username}
+                        onChange={handleChange}
+                        error={errors.find(error => error.id === "username")?.message}
+                    />
 
-            <h1 id="formTitle">Register</h1>
+                    <InputField
+                        id="email"
+                        ref={emailRef}
+                        label="Email"
+                        type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        error={errors.find(error => error.id === "email")?.message}
+                    />
 
-            <div className='inputFields'>
-                <InputField
-                    id="username"
-                    ref={usernameRef}
-                    label="Username"
-                    type="text"
-                    name="username"
-                    value={formData.username}
-                    onChange={handleChange}
-                    error={errors.find(error => error.id === "username")?.message}
-                />
+                    <PasswordField
+                        id="password"
+                        ref={passwordRef}
+                        label="Password"
+                        type="password"
+                        name="password"
+                        value={formData.password}
+                        onChange={handleChange}
+                        hint={"Must contain at least 12 characters"}
+                        error={errors.find(error => error.id === "password")?.message}
+                    />
 
-                <InputField
-                    id="email"
-                    ref={emailRef}
-                    label="Email"
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    error={errors.find(error => error.id === "email")?.message}
-                />
-
-                <PasswordField
-                    id="password"
-                    ref={passwordRef}
-                    label="Password"
-                    type="password"
-                    name="password"
-                    value={formData.password}
-                    onChange={handleChange}
-                    hint={"Must contain at least 12 characters"}
-                    error={errors.find(error => error.id === "password")?.message}
-                />
-                <button type="submit" className='submitButton'>Register</button>
+                    <button type="submit" className='submitButton'>Register</button>
+                </div>
             </div>
 
 
