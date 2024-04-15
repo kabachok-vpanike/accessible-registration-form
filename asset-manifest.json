@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b765f7e.css",
+    "main.js": "/static/js/main.b51b0d03.js",
+    "static/js/453.b1d7b4c0.chunk.js": "/static/js/453.b1d7b4c0.chunk.js",
+    "static/media/red-alert-icon.svg": "/static/media/red-alert-icon.0dc82e8ab70d07b1baf68a4187b12e30.svg",
+    "index.html": "/index.html",
+    "main.0b765f7e.css.map": "/static/css/main.0b765f7e.css.map",
+    "main.b51b0d03.js.map": "/static/js/main.b51b0d03.js.map",
+    "453.b1d7b4c0.chunk.js.map": "/static/js/453.b1d7b4c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b765f7e.css",
+    "static/js/main.b51b0d03.js"
+  ]
+}
