@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/accessible-registration-form/static/css/main.0b765f7e.css",
+    "main.css": "/accessible-registration-form/static/css/main.3c1e0259.css",
     "main.js": "/accessible-registration-form/static/js/main.e14ad6ed.js",
     "static/js/453.b1d7b4c0.chunk.js": "/accessible-registration-form/static/js/453.b1d7b4c0.chunk.js",
     "static/media/red-alert-icon.svg": "/accessible-registration-form/static/media/red-alert-icon.0dc82e8ab70d07b1baf68a4187b12e30.svg",
     "index.html": "/accessible-registration-form/index.html",
-    "main.0b765f7e.css.map": "/accessible-registration-form/static/css/main.0b765f7e.css.map",
+    "main.3c1e0259.css.map": "/accessible-registration-form/static/css/main.3c1e0259.css.map",
     "main.e14ad6ed.js.map": "/accessible-registration-form/static/js/main.e14ad6ed.js.map",
     "453.b1d7b4c0.chunk.js.map": "/accessible-registration-form/static/js/453.b1d7b4c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b765f7e.css",
+    "static/css/main.3c1e0259.css",
     "static/js/main.e14ad6ed.js"
   ]
 }
